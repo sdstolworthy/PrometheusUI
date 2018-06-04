@@ -1,7 +1,7 @@
 {
-  "name": "prometheusui",
-  "version": "1.0.9",
-  "description": "Prometheus UI library",
+  "name": "react-bulma",
+  "version": "1.0.10",
+  "description": "React wrapper library for bulma.io",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
