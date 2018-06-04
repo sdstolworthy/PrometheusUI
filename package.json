@@ -1,5 +1,5 @@
 {
-  "name": "react-bulma",
+  "name": "prometheusui",
   "version": "1.0.10",
   "description": "React wrapper library for bulma.io",
   "main": "dist/index.js",
