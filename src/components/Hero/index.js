@@ -1,6 +1,6 @@
 import React from "react"
 
-import { propsToHelperClasses } from 'helpers/componentHelpers'
+import { propsToHelperClasses } from '../../helpers/componentHelpers'
 
 const Hero = ({ children, style, ...props }) => (
   <div style={style} className={`hero ${propsToHelperClasses(props)}`}>

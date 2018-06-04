@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { propsToHelperClasses } from 'helpers/componentHelpers';
+import { propsToHelperClasses } from '../../helpers/componentHelpers';
 import './Section.css'
 
 const Section = ({ children, ...props }) => (

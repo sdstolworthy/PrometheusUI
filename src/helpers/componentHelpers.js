@@ -12,3 +12,5 @@ export function propsToHelperClasses(props = {}) {
     // convert to string
     .join(' ')
 }
+
+export default { propsToHelperClasses }
