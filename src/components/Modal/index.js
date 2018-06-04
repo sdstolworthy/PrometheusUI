@@ -1,6 +1,6 @@
 import React from "react"
 
-import { propsToHelperClasses } from '../../helpers/componentHelpers';
+import { propsToHelperClasses } from 'helpers/componentHelpers';
 
 const Modal = ({ children, onClose, ...props }) => (
   <div className={`modal ${propsToHelperClasses(props)}`} {...props}>

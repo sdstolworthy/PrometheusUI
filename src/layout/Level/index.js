@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './Level.css'
-import { propsToHelperClasses } from '../../helpers/componentHelpers';
+import { propsToHelperClasses } from 'helpers/componentHelpers';
 
 const Level = ({ children, ...props }) => (
   <div className={`${propsToHelperClasses(props)} level`}>
