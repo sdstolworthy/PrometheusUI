@@ -8,6 +8,35 @@ const Hero = ({ children, style, ...props }) => (
   </div>
 )
 
+Hero.Image = ({ children, image, style, ...props }) => (
+  <Hero
+    style={{
+      background: `url(${image})`,
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      position: 'relative',
+      ...style
+    }}
+    {...props}
+  >
+    {children}
+  </Hero>
+)
+
+Hero.Cover = ({ style, ...props }) => (
+  <div
+    style={{
+      background: 'linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.7), rgba(0,0,0,0.2))',
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+    }}
+    {...props}
+  />
+)
+
 Hero.Body = ({ children, style, ...props }) => (
   <div
     style={style}
