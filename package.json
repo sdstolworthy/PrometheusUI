@@ -1,0 +1,36 @@
+{
+  "name": "prometheusui",
+  "version": "1.0.3",
+  "description": "Prometheus UI library",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [
+    "User",
+    "Interface",
+    "UI"
+  ],
+  "author": "Prometheus Software Consulting, LLC <info@prometheusconsulting.io> (https://prometheusconsulting.io)",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "postcss-loader": "^2.1.5",
+    "react": "^16.4.0",
+    "react-router-dom": "^4.2.2",
+    "webpack": "^4.10.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack-cli": "^3.0.1"
+  }
+}
