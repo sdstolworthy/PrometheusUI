@@ -2,7 +2,7 @@ import React from 'react'
 import './Content.css'
 
 
-import { propsToHelperClasses } from '../helpers/componentHelpers';
+import { propsToHelperClasses } from '../../helpers/componentHelpers';
 
 const Content = ({ children, ...props }) => (
   <div className={`content ${propsToHelperClasses(props)}`}>

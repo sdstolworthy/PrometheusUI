@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import './Button.css'
-import { propsToHelperClasses } from '../helpers/componentHelpers';
+import { propsToHelperClasses } from '../../helpers/componentHelpers';
 
 const Button = {}
 Button.ExternalLink = ({ children, href, ...props }) => (
