@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
-import './navbar.css'
 import { propsToHelperClasses } from '../../helpers/componentHelpers';
+import './navbar.css'
 
 const Navbar = ({ children, ...props }) => (
   <nav className={`navbar ${propsToHelperClasses(props)}`}>
@@ -38,6 +37,18 @@ Navbar.Link = ({ children, to, ...props }) => (
 
 Navbar.Item = ({ children, ...props }) => (
   <div className={`navbar-item ${propsToHelperClasses(props)}`} >
+    {children}
+  </div>
+)
+
+Navbar.End = ({ children }) => (
+  <div className="navbar-end">
+    {children}
+  </div>
+)
+
+Navbar.Start = ({ children }) => (
+  <div className="navbar-start">
     {children}
   </div>
 )
