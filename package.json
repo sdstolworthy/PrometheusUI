@@ -1,6 +1,6 @@
 {
   "name": "prometheusui",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "React wrapper library for bulma.io",
   "main": "dist/index.js",
   "scripts": {
