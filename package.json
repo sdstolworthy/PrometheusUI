@@ -1,6 +1,6 @@
 {
   "name": "prometheusui",
-  "version": "1.0.15",
+  "version": "1.0.17",
   "description": "React wrapper library for bulma.io",
   "main": "dist/index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "bulma": "^0.7.1",
+    "glamorous": "^4.13.1",
     "postcss-loader": "^2.1.5",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
