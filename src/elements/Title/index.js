@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import glamorous from 'glamorous'
-import { propsToHelperClasses } from '../helpers'
+import { propsToHelperClasses } from '../../helpers/componentHelpers'
 
 function getHeadingSize({ children, ...props }, defaultSize = 3) {
   const sizeKey = Object.keys(props).find(k => k.match(/is(\d)/))
